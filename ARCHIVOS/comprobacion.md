@@ -23,16 +23,16 @@ k0s kubectl run pod-nginx-mario --image=nginx
 
 ![c3](https://github.com/mloparj10/Proyecto-k0s/blob/main/images/comprobaciones/c3.JPG)
 
-El pod ya está cargado. En apartado STATUS indica que está "runnning" (corriendo). Hatsa que en ese apartado no ponga "running" el pod no estará funcionando.
+El pod ya está cargado. En apartado STATUS indica que está "runnning" (corriendo). Hasta que en ese apartado no ponga "running" el pod no estará funcionando.
 
 ## 4. Vamos a acceder al pod con una terminal interactiva. 
 
-Para meternos en el pod e interactuar con el realizaremos el siguiente comando:
+Para introducirnos en el pod e interactuar con el realizaremos el siguiente comando:
 ```
 k0s kubectl exec pod/pod-nginx-mario -i -- /bin/bash
 ```
 
-Lo ejecutaremos y estraemos dentro. Podemos darnos cuenta de eso al ver que el prompt ha cambiado. Es una consola bash como otra cualquiera, un pequeño sistema linux sin ningún misterio, asi que podemos navegar tranquilamente por sus directorios.
+Lo ejecutaremos y estaremos dentro. Podemos darnos cuenta de eso al ver que el prompt ha cambiado. Es una consola bash como otra cualquiera, un pequeño sistema linux sin ningún misterio, asi que podemos navegar tranquilamente por sus directorios.
 Nos vamos a ir al directorio donde se encuentra el index.html de Nginx, para editarlo y poner un mensaje personalizado con el comando echo.
 ```
 cd /usr/share/nginx/html
@@ -64,4 +64,5 @@ curl localhost:8081
  Lo que hace la herramienta curl no es solo descargar archivos de internet. Si no que también puede extraer el código html de una página web. Le indicamos que llame a la pagina "localhost" (nuestro servidor donde nos encontramos) y el puerto 8081(puerto por el que hemos hecho que se lance la aplicación previamente). Si al ejecutar el comando muestra el mensaje personalizado que escribimos anteriormente en el index.html, quiere decir que nuestro k0s funciona a la perfección.
  
 ![c5](https://github.com/mloparj10/Proyecto-k0s/blob/main/images/comprobaciones/c5.JPG)
+
 
