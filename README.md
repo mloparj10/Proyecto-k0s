@@ -4,7 +4,7 @@
 ![logok0s](images/k0s.png)
 
 ## 1.-[Introducción](ARCHIVOS/introducccion1.md)
-## 2.-¿Qué es k0s?  
+## 2.-[¿Qué es k0s?](ARCHIVOS/que-es.md)
 ## 3.-Cloud Server elegido
 ## 4.-Preparación del servidor. 
 ## 5.-Instalación del SO 
