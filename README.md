@@ -5,8 +5,8 @@
 
 ## 1.-[Introducción](ARCHIVOS/introducccion1.md)
 ## 2.-[¿Qué es k0s?](ARCHIVOS/que-es.md)
-## 3.-Cloud Server elegido
-## 4.-Preparación del servidor. 
+## 3.-[Cloud Server elegido](ARCHIVOS/server-elegido.md)
+## 4.-[Preparación del servidor](ARCHIVOS/preparación.md)
 ## 5.-Instalación del SO 
 ## 6.-Comprobaciones de funcionamiento.
 ## 7. Referencias:
